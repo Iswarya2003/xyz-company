@@ -1,0 +1,192 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="An electric battery is a source of electric power consisting of one or more electrochemical cells with external connections for powering electrical devices.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+ .button {
+  background-color: rgba(217, 5, 5, 0.784); /* Green */
+  border:1px;
+  border-color: black;
+  color: rgb(250, 249, 249);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {border-radius: 50%;}
+.vl {
+  border-left: 2px solid rgb(11, 11, 11);
+  height: 200px;
+  
+}
+#vl{
+  border-left: 2px solid rgb(11, 11, 11);
+  
+  height: 300px;
+
+}
+#ah a:hover{
+    color:rgb(250, 5, 189) ;
+}
+#an a:hover {
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+}
+.boxed {
+  border: 1px solid rgb(3, 0, 12) ;
+  width: 72px;
+  background-color: rgb(110, 131, 249);
+  text-align: center;
+}
+.boxed1 {
+  border: 1px solid rgb(2, 90, 26) ;
+  width: 80px;
+  background-color: rgb(133, 244, 159);
+  text-align: center;
+}
+    </style>
+</head>
+<body style="font-family:sans-serif;font-weight: bold;"><b><br>
+    <header>
+        <h3><b><center>XYZ Battery House Pvt Ltd</center></b></h3>
+        </header></b>
+    <br>
+    <div class="container container-fluid" style="background-color:rgb(249, 81, 81); border-right: 10em black; border:1px solid rgb(11, 11, 11);">
+        <br>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-4">
+                
+        <img src="data:image/jpeg;base64,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"width="50" height="70">
+        </div><div class="col-lg-2 col-md-3 col-4">
+        <div id="an"><a href="#about" style="color:white"><button class="button button1" style="color:white"><a href="#about" style="color:white">About</a></button></a></div></div>
+        <div class="col-lg-2 col-md-3 col-4">
+        <div id="an"><a href="#product"><button class="button button1"><a href="#product" style="color:white">Product</a></button></a></div></div>
+        <div class="col-lg-2 col-md-3 col-4">
+        <div id="an"><a href="#sources"><button class="button button1"><a href="#sources" style="color:white">Services</a></button></a></div></div>
+        <div class="col-lg-3 col-md-3 col-4">
+        <div id="an"><a href="#contact"><button class="button button1"><a href="#contact" style="color:white">Contact Us</a></button></a></div></div>
+        </div><br></div>
+    <div class="container container-fluid" id="about" style="background-color:rgb(194, 194, 250); color: rgb(1, 1, 78);border:1px solid rgb(11, 11, 11);">
+        <br>
+        <div class="boxed">
+            <h5><b>About</b></h5>
+          </div>
+          <br>
+        <p>An electric battery is a source of electric power consisting of one or more electrochemical cells with external connections[1] for powering electrical devices.
+
+            When a battery is supplying power, its positive terminal is the cathode and its negative terminal is the anode.[2] The terminal marked negative is the source of electrons that will flow through an external electric circuit to the positive terminal. When a battery is connected to an external electric load, a redox reaction converts high-energy reactants to lower-energy products, and the free-energy difference is delivered to the external circuit as electrical energy. Historically the term "battery" specifically referred to a device composed of multiple cells; however, the usage has evolved to include devices composed of a single cell.[3]
+            
+            Primary (single-use or "disposable") batteries are used once and discarded, as the electrode materials are irreversibly changed during discharge; a common example is the alkaline battery used for flashlights and a multitude of portable electronic devices. Secondary (rechargeable) batteries can be discharged and recharged multiple times using an applied electric current; the original composition of the electrodes can be restored by reverse current. Examples include the lead-acid batteries used in vehicles and lithium-ion batteries used for portable electronics such as laptops and mobile phones.</p>
+    </div>
+    <div class="container" id="product" style="background-color:rgb(194, 249, 194);color:rgb(2, 97, 2);border:1px solid rgb(11, 11, 11);">
+        <br>
+        <div class="boxed1">
+            <h5><b>product</b></h5>
+          </div>
+          <br>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+        <table><tr>
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFBIuQTyHLmT-tF4rIm1cZEqO8tIkaO44x_Q&usqp=CAU"alt="Battery1" width=150 height="150"></div>
+        </tr><br><br><tr><iframe width="250" height="200" src="https://www.youtube.com/embed/RWWLfUIiMAw" alt="Battery2 video">
+        </iframe></tr><br><br>
+        <tr><a href="https://www.youtube.com/embed/RWWLfUIiMAw" style="color:rgb(2, 77, 2);">Click here</a></tr></table></div>
+
+        <div class="col-lg-4 clo-sm-6 ">
+            <table><tr>
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNEpap6m6rXCOo2mQyli1ZPgeTNQNvEbgffg&usqp=CAU"alt="Battery1" width=150 height="150"></div>
+                </tr><br><br><tr><iframe width="250" height="200" src="https://www.youtube.com/embed/gWKOjncBMCQ " alt="Battery2 video">
+                </iframe></tr><br><br>
+                <tr><a href="https://www.youtube.com/embed/gWKOjncBMCQ" style="color:rgb(2, 77, 2);">Click here</a></tr></table></div>
+            
+            <div class="col-lg-4 col-sm-6">
+                <table><tr>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2551ZUNE9-fY5W5mTIhlqvz4yfxnppyl9vw&usqp=CAU"alt="Battery1" width=150 height="150"></div>
+                </tr><br><br><tr><iframe width="250" height="200" src="https://www.youtube.com/embed/VxMM4g2Sk8U" alt="Battery2 video">
+                </iframe></tr><br><br>
+                    <tr><a href="https://www.youtube.com/embed/VxMM4g2Sk8U" style="color:rgb(2, 77, 2);">Click here</a></tr></table></div>
+                </div>
+                <br>
+            </div>
+            <div class="container" id="sources" style="background-color:rgb(175, 174, 174);border:1px solid rgb(11, 11, 11);"><br>
+                <h5 style="text-decoration:underline;"><b>Services</b></h5>
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6" align="center">
+                        <h6><b>OEM Based</b></h6>
+                        <div class="container" style="color: white;">
+                            <div class="row">
+                                <div class="col-5" style="background-color:rgb(26, 26, 26); height: max-content;"><br>
+                                    <p>OEM stands for “original equipment manufacturer,” and refers to a manufacturer that provides goods or manpower to bring a product to market.</p>
+                                </div>
+                                <div class="col-1"></div>
+                                <div class="col-6" style="background-color:rgb(26, 26, 26);"><br>
+                                    <p>Some VAR companies such as Dell, IBM, and Hewlett Packard started to accept branded parts from outside sources in their own products. So over time, OEM came to refer to these companies.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vl" id="vl">&nbsp;</div>
+                    <div class="col-lg-6 col-sm-7" align="center">
+                        <h6><b>Indigeneous</b></h6>
+                        <div class="container" style="color: white;">
+                            <div class="row">
+                                <div class="col-5" style="background-color:rgb(26, 26, 26);"><br>
+                                    <p>Ministry of Road Transport & Highways, Government of India has asked the EV industry to shift towards indigenous battery technologies.</p>
+                                </div>
+                                <div class="col-1"></div>
+                                <div class="col-6" style="background-color:rgb(26, 26, 26);"><br>
+                                    <p>Self-Reliance and Indigenous Production is really crucial as it will help reduce cost of investment and manufacturing. India, today is one of the biggest importer and parasite of Batteries.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <br>  
+            </div>
+    <div class="container" id="contact" style="align-content:center ;border:1px solid rgb(11, 11, 11);">
+        <div class="row">
+        
+            <table><br>
+                <tr><td><u>Mobile No :</u></td>
+                    <td>1234567890</td>
+                </tr><br>
+                <tr>
+                    <td><u>email :</u></td>
+                    <td><a href="https://myaccount.google.com/">xyz@gmail.com</a></td>
+                </tr><br>
+                <tr>
+                    <td><u>Whatsapp</u></td>
+                    <td><div class="ah" id="ah" style="color:blue"><a href="https://web.whatsapp.com/" id="tab1"><img src="data:image/jpeg;base64,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"width="45" height="45"></a></div></td>
+                </tr>
+            </table>
+            <div class="vl"></div>
+            
+            <center><table><br>
+                <tr style="text-align:center;">Address
+                </tr><br>
+                <tr></tr>
+                <br>
+                <tr><td>
+                    sector 9/11,Dabra chowk,
+                    Hisar,Haryana 125005
+                </td></tr>
+            </table></center>
+        </div>
+    </div>
+    <br>
+<br></b> 
+
+</body>
+
+</html>
